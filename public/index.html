@@ -1,422 +1,361 @@
-<!--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<title>Sagar Salyan</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta name="keywords" content="Designer Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
-	SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony Ericsson, Motorola web design" />
-	<script type="application/x-javascript">
-		addEventListener("load", function () {
-			setTimeout(hideURLbar, 0);
-		}, false);
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-		function hideURLbar() {
-			window.scrollTo(0, 1);
-		}
-	</script>
+  <title>Sagar Salyan</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
 
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
-	<!-- Custom Theme files -->
-	<link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
-	<!--gallery -->
-	<link type="text/css" rel="stylesheet" href="css/cm-overlay.css" />
-	<!-- //gallery -->
-	<link href="css/style.css" type="text/css" rel="stylesheet" media="all">
-	<link href="css/font-awesome.css" rel="stylesheet">
-	<!-- font-awesome icons -->
-	<!--//Custom Theme files-->
-	<!-- js -->
-	<script src="js/jquery-2.2.3.min.js"></script>
-	<!-- //js -->
-	<!-- web-fonts -->
-	<link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i" rel="stylesheet">
-	<link href="//fonts.googleapis.com/css?family=Arsenal:400,400i,700,700i" rel="stylesheet">
-	<!-- //web-fonts -->
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: iPortfolio - v2.0.3
+  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
 </head>
 
 <body>
-	<!-- banner -->
-	<div id="home" class="banner">
-		<div class="banner-agileinfo">
-			<!-- header -->
-			<div class="header">
-				<div class="container">
-					<div class="menu">
-						<a href="" id="menuToggle"> <span class="navClosed"></span> </a>
-						<nav>
-							<a href="#home" class="active scroll">Home</a>
-							<a href="#about" class="scroll">About Me</a>
-							<a href="#skills" class="scroll">Skills</a>
-							<a href="#services" class="scroll">Services</a>
-							<a href="#contact" class="scroll">Contact</a>
-						</nav>
-						<script>
-							(function ($) {
-								// Menu Functions
-								$(document).ready(function () {
-									$('#menuToggle').click(function (e) {
-										var $parent = $(this).parent('.menu');
-										$parent.toggleClass("open");
-										var navState = $parent.hasClass('open') ? "hide" : "show";
-										$(this).attr("title", navState + " navigation");
-										// Set the timeout to the animation length in the CSS.
-										setTimeout(function () {
-											console.log("timeout set");
-											$('#menuToggle > span').toggleClass("navClosed").toggleClass("navOpen");
-										}, 200);
-										e.preventDefault();
-									});
-								});
-							})(jQuery);
-						</script>
 
-					</div>
-					<div class="clearfix"> </div>
-				</div>
-			</div>
-			<!-- //header -->
-			<div class="banner-text">
-				<div class="container">
-					<h1><a href="index.html">Sagar Salyan</a></h1>
-					<h2 class="w3ls-bnrtext">I am a <span>Web</span> Developer</h2>
-					<p class="w3ls-p">an interactive web developer with the passion for creativity</p>
-					<a href="#about" class="buy btn-wayra scroll">Explore my work</a>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- //banner -->
-	<!-- about -->
-	<div class="agile-about w3ls-section text-center" id="about">
-		<div class="container">
-			<h3 class="agileits-title">about me</h3>
-			<div class="agileits-about-grid">
-				<p>With a passion for UX/UI and Backend Developing, I have both the skill set and professional background necessary to dive deep into the Web Developing world. As an upbeat, self-motivated team player with excellent Web developing knowledge, I envision an exciting future in the industry. Browse my site to see all that I have to offer.</p>
-			</div>
-			<a href="#contact" class="wthree- about-link scroll">hire me</a>
-		</div>
-	</div>
-	<!-- //about -->
-	<!-- about-bottom -->
-	<div class="agileits-about-btm">
-		<div class="container">
-			<div class="w3-flex">
-			<div class="col-md-4 col-sm-4 col-xs-12 ab1 agileits-about-grid1">
-				<span class="fa fa-trophy" aria-hidden="true"></span>
-				<h4 class="agileinfo-head">awards</h4>
-				<h5>best coder</h5>
-				<p>First Place in Coding Competition in Inter Collegiate Fest</p>
-				<h5>NCC</h5>
-				<p>Completed NCC ‘A’ certificate from naval wing.</p>
+  <!-- ======= Mobile nav toggle button ======= -->
+  <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
 
-			</div>
-			<div class="col-md-4 col-sm-4 ab1 agileits-about-grid2">
-				<span class="fa fa-graduation-cap  wthree-title-list" aria-hidden="true"></span>
-				<h4 class="agileinfo-head">education</h4>
-				<h5>Bachelor of Computer Application</h5>
-				<p>Vivekananda College, Puttur.</p>
-				<h5>Master of Computer Application</h5>
-				<p>Shree Devi Institute of Technology, Mangalore.</p>
-			</div>
-			<div class="col-md-4 col-sm-4 ab1 agileits-about-grid3">
-				<span class="fa fa-shield  wthree-title-list" aria-hidden="true"></span>
-				<h4 class="agileinfo-head">expertise</h4>
-				<h5>SAP UI5/Fiori Consultant</h5>
-				<p>2019-Present</p>
-			</div>
-			<div class="clearfix"></div>
-			</div>
-		</div>
-	</div>
-	<!-- //about-bottom -->
-	<!-- skills -->
-	<div class="agile-service w3ls-section" id="skills">
-		<div class="container">
-			<div class="col-md-5 w3_agileits-service-left">
-				<h3 class="agileits-title">skills</h3>
-				<p>I have all required skill set to be a Web Developer. For UX/UI, I can develop the website using popular javascript framework such as Angular, React, SAP UI5 and for server-side scripting I can work on NodeJs, Python, PHP. I have the knowledge of MySQL and MongoDB for data storage. Moreover I also have the knowledge of ReactNative for developing hybrid mobile app. And for automated testing I have worked on Selenium.</p>
-			</div>
-			<div class="col-md-7 skills-right">
-				<div class="vertical-skills  pull-right xs-center">
-					<ul class="list-inline">
-						<li>
-							<div class="skill" style="height:100%; background:#6361f0;"><span class="value">95%</span></div><span class="title">HTML, CSS & JS</span>
-						</li>
-						<li>
-							<div class="skill" style="height:90%; background:#b32eca;"><span class="value">90%</span></div><span class="title">UI5</span>
-						</li>
-						<li>
-							<div class="skill" style="height:85%; background:#ff9d0d;"><span class="value">85%</span></div><span class="title">Angular</span>
-						</li>
-						<li>
-							<div class="skill" style="height:80%; background:#03a9f4;"><span class="value">80%</span></div><span class="title">React</span>
-						</li>
-						<li>
-							<div class="skill" style="height:85%; background:#009688;"><span class="value">85%</span></div><span class="title">NodeJs</span>
-						</li>
-						<li>
-							<div class="skill" style="height:80%; background:#ff2a2a;"><span class="value">80%</span></div><span class="title">Python</span>
-						</li>
-						<li>
-							<div class="skill" style="height:75%; background:#47a818;"><span class="value">75%</span></div><span class="title">ReactNative</span>
-						</li>
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="d-flex flex-column">
 
-					</ul>
-				</div>
-
-			</div>
-			<div class="clearfix"></div>
-		</div>
-	</div>
-	<!-- //menu -->
-	<!-- services -->
-	<div class="w3ls-section services" id="services">
-		<div class="container">
-			<h3 class="agileits-title text-center">services</h3>
-			<div class="services-w3ls-row agileits-w3layouts service1 text-center">
-				<h5>ux/ui design</h5>
-				<p>UX/UI is developed using Angular, React, UI5 or HTML/CSS/JS.</p>
-				<div class="s-top">
-					<span class="fa fa-laptop" aria-hidden="true"></span>
-				</div>
-			</div>
-			<div class="services-w3ls-row agileits-w3layouts middlegrid-w3ls">
-				<div class="col-md-4 services-grid agileits-w3layouts service2">
-					<div class="col-md-10 w3ls-sub-text">
-						<h5>Mobile App</h5>
-						<p>Hybrid mobile app is developed in ReactNative.</p>
-					</div>
-					<div class="col-md-2 sub-icon">
-						<span class="fa fa-mobile" aria-hidden="true"></span>
-					</div>
-				</div>
-				<div class="col-md-4 services-grid img-agileits">
-					<img src="images/services.jpg" class="img-responsive" alt="" />
-				</div>
-				<div class="col-md-4 services-grid agileits-w3layouts service3">
-					<div class="col-md-2 sub-icon">
-						<span class="fa fa-database" aria-hidden="true"></span>
-					</div>
-					<div class="col-md-10 w3ls-sub-text">
-						<h5>backend design</h5>
-						<p>Backend script is designed using NodeJs, Python or PHP with MySQL or MongoDB</p>
-					</div>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-			<div class="services-w3ls-row agileits-w3layouts service4">
-				<div class="s-top">
-					<span class="fa fa-check" aria-hidden="true"></span>
-				</div>
-				<h5>selenium</h5>
-				<p>Web applications are tested using Selenium.</p>
-			</div>
-		</div>
-	</div>
-	<!-- //services -->
-	<!-- contact -->
-	<div class="contact-w3-agileits w3ls-section" id="contact">
-		<div class="container">
-			<h3 class="agileits-title cont-w3l">Feel free to contact me</h3>
-			<div class="contact-main-w3ls">
-				<div class="col-md-6  contact-left-w3ls">
-					<div class="mail contact-grid-agileinfo">
-						<div class="col-md-4 col-sm-4 col-xs-4 contact-icon-wthree">
-							<h4>Mail me</h4>
-						</div>
-						<div class="col-md-8  col-sm-8 col-xs-8 contact-text-agileinfo">
-							<a href="mailto:info@example.com">sagarslyn@gmail.com</a>
-						</div>
-						<div class="clearfix"></div>
-					</div>
-					<div class="call contact-grid-agileinfo">
-						<div class="col-md-4 col-sm-4 col-xs-4 contact-icon-wthree">
-							<h4>Phone</h4>
-						</div>
-						<div class="col-md-8 col-sm-8 col-xs-8 contact-text-agileinfo">
-							<p>+91 8129482811</p>
-						</div>
-						<div class="clearfix"></div>
-					</div>
-					<div class="contact-grid-agileinfo">
-						<div class="col-md-4 col-sm-4 col-xs-4 contact-icon-wthree">
-							<h4>Address</h4>
-						</div>
-						<div class="col-md-8 col-sm-8 col-xs-8 contact-text-agileinfo">
-							<p>
-								Kudva House, P.O Perla,<br>
-								Kasaragod Dist,<br>
-								671552,<br>
-								India.
-							</p>
-						</div>
-						<div class="clearfix"></div>
-					</div>
-					<div class="visit wthree-social-icons contact-grid-agileinfo">
-						<div class="col-md-4 col-sm-4 col-xs-4 contact-icon-wthree">
-							<h4>Follow me</h4>
-						</div>
-						<div class="col-md-8 col-sm-8 col-xs-8 contact-text-agileinfo">
-							<ul class="w3-links">
-								<li><a href="https://www.linkedin.com/in/sagarsalyan/"  target="_blank"><i class="fa fa-linkedin"></i></a></li>
-								<li><a href="https://www.facebook.com/salyan.sagar"  target="_blank"><i class="fa fa-facebook"></i></a></li>
-								<li><a href="https://www.instagram.com/sagar.salyan/"  target="_blank"><i class="fa fa-instagram"></i></a></li>
-								<li><a href="https://twitter.com/sagarsalyanp"  target="_blank"><i class="fa fa-twitter"></i></a></li>
-							</ul>
-						</div>
-						<div class="clearfix"></div>
-					</div>
-				</div>
-				<div class="contact-main">
-					<div class="col-md-6 agileits-main-right">
-						<form action="" method="POST" class="agile_form">
-							<label class="header">Name</label>
-							<div class="icon1 w3ls-name1">
-								<input placeholder=" " id="firstname" name="first name" type="text" required="">
-							</div>
-							<div class="icon2">
-								<label class="header">Email</label>
-								<input placeholder=" " id="email" name="Email" type="email" required="">
-							</div>
-							<label class="header">your message</label>
-							<textarea class="w3l_summary" id="message" required=""></textarea>
-							<input type="submit" id="submitBtn" value="SEND">
-						</form>
-					</div>
-					<div class="clearfix"></div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<!-- Modal -->
-  <div class="modal fade" id="successModal" role="dialog">
-    <div class="modal-dialog">
-
-      <!-- Modal content-->
-      <div class="modal-content">
-        <div class="modal-header" style="background:#34a4eb;color:white;">
-          <h4 class="modal-title">Thank you!</h4>
-        </div>
-        <div class="modal-body">
-          <p>Thank you for contacting me. I will reply you soon.</p>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Ok</button>
+      <div class="profile">
+        <img src="assets/img/profile-img.jpg" alt="" class="img-fluid rounded-circle">
+        <h1 class="text-light"><a href="index.html">Sagar Salyan</a></h1>
+        <div class="social-links mt-3 text-center">
+          <a href="https://www.linkedin.com/in/sagarsalyan/" class="linkedin" target="_blank"><i class="bx bxl-linkedin"></i></a>
+          <a href="mailto:sagarslyn@gmail.com" class="google-plus" target="_blank"><i class="bx bx-mail-send"></i></a>
+          <a href="https://twitter.com/sagar_salyan" class="twitter" target="_blank"><i class="bx bxl-twitter"></i></a>
+          <a href="https://www.facebook.com/salyan.sagar" class="facebook" target="_blank"><i class="bx bxl-facebook"></i></a>
+          <a href="https://www.instagram.com/sagar.salyan" class="instagram" target="_blank"><i class="bx bxl-instagram"></i></a>
         </div>
       </div>
 
+      <nav class="nav-menu">
+        <ul>
+          <li class="active"><a href="#hero"><i class="bx bx-home"></i> <span>Home</span></a></li>
+          <li><a href="#about"><i class="bx bx-user"></i> <span>About</span></a></li>
+          <li><a href="#resume"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
+          <li><a href="#contact"><i class="bx bx-envelope"></i> Contact</a></li>
+
+        </ul>
+      </nav><!-- .nav-menu -->
+      <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
+
     </div>
-  </div>
+  </header><!-- End Header -->
 
-	<div class="modal fade" id="errorModal" role="dialog">
-    <div class="modal-dialog">
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+    <div class="hero-container" data-aos="fade-in">
+      <h1>Sagar Salyan</h1>
+      <p>I'm <span class="typed" data-typed-items="SAP UI5/Fiori Consultant, Web Developer, UX/UI Designer"></span></p>
+    </div>
+  </section><!-- End Hero -->
 
-      <!-- Modal content-->
-      <div class="modal-content">
-        <div class="modal-header" style="background:#ed3915;color:white" >
-          <h4 class="modal-title">Error!</h4>
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>About</h2>
+          <p>I am a Web Developer. I have hands-on experience of 1.6 year in Web Developing. I work as a SAP UI5/Fiori Consultant, where I develop UX/UI for the SAP Applications using SAP UI5 framework and SAP Fiori. I also have knowledge of backend developing in SAP, which is SAP ABAP and SAP OData. Apart from SAP domain, I have good knowledge of open-source technologies like Reactjs, Angular, Nodejs, Python, PHP, Java. </p>
         </div>
-        <div class="modal-body">
-          <p>Your reply is not sent because of some reason, try again.</p>
+
+        <div class="row">
+          <div class="col-lg-4" data-aos="fade-right">
+            <img src="assets/img/profile-img.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+            <h3>Web Developer &amp; UI/UX Designer.</h3>
+            <p class="font-italic">
+              I am currently working as a SAP UI5/Fiori Consultant in PEOL Technologies, Bangalore.
+            </p>
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="icofont-rounded-right"></i> <strong>Birthday:</strong> 24 June 1997</li>
+                  <li><i class="icofont-rounded-right"></i> <strong>Website:</strong> www.sagarsalyan.com</li>
+                  <li><i class="icofont-rounded-right"></i> <strong>Phone:</strong> +91 8129482811</li>
+                  <li><i class="icofont-rounded-right"></i> <strong>City:</strong> Bangalore, India</li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="icofont-rounded-right"></i> <strong>Age:</strong> 23</li>
+                  <li><i class="icofont-rounded-right"></i> <strong>Degree:</strong> MCA</li>
+                  <li><i class="icofont-rounded-right"></i> <strong>E-mail ID:</strong> sagarslyn@gmail.com</li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Ok</button>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Skills Section ======= -->
+    <section id="skills" class="skills section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Skills</h2>
+        </div>
+
+        <div class="row skills-content">
+
+          <div class="col-lg-6" data-aos="fade-up">
+
+            <div class="progress">
+              <span class="skill">HTML <i class="val">100%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">CSS <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">JavaScript <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+
+            <div class="progress">
+              <span class="skill">SAP UI5/Fiori <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">SAP OData <i class="val">60%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">SAP ABAP <i class="val">50%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Skills Section -->
+
+    <!-- ======= Resume Section ======= -->
+    <section id="resume" class="resume">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Resume</h2>
+          <p>My work experience and Educational details are provided below.</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="resume-title">Professional Experience</h3>
+            <div class="resume-item">
+              <h4>SAP UI5/Fiori Consultant</h4>
+              <h5>Jun 2019 - Present</h5>
+              <p><em>PEOL Technologies, Bangalore, India </em></p>
+              <ul>
+                <li>Associate SAP UI5/Fiori Consultant, developed SAP Fiori applications</li>
+                <li>Developed user-friendly and responsive SAP Fiori Application using UI5, HTML, CSS, Javascript for front-end and consumed OData services from SAP Fiori Application. </li>
+                <li>Developed Custom Controls</li>
+                <li>Developed applications with best algorithm on front-end using Javascript.</li>
+                <li>Implemented multi-origin for the SAP Fiori Application.</li>
+                <li>Configured SAP UI5 Applications in the Fiori Launchpad</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-6" data-aos="fade-up">
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <h4>Master of Computer Application</h4>
+              <h5>2017 - 2019</h5>
+              <p><em>Shree Devi Institute of Technology, Mangalore, Karnataka, India</em></p>
+              <p></p>
+            </div>
+            <div class="resume-item">
+              <h4>Bachelor of Computer Application</h4>
+              <h5>2014 - 2017</h5>
+              <p><em>Vivekananda College, Karnataka, Puttur, India</em></p>
+              <p></p>
+            </div>
+            <div class="resume-item">
+              <h4>Pre-University Course - Commerce</h4>
+              <h5>2012 - 2014</h5>
+              <p><em>Shree Subramanyeshwara Higher Secondary School, Katukukke, Kerala, India</em></p>
+              <p></p>
+            </div>
+          </div>
         </div>
       </div>
+    </section>
+    <!-- End Resume Section -->
 
-    </div>
-  </div>
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container">
 
-	<div class="modal fade" id="invalidModal" role="dialog">
-    <div class="modal-dialog">
+        <div class="section-title">
+          <h2>Contact</h2>
+          <p>I am available to work. Please feel free to contact me for any queries, projects or job.</p>
+        </div>
 
-      <!-- Modal content-->
-      <div class="modal-content">
-        <div class="modal-header" style="background:#ed3915;color:white" >
-          <h4 class="modal-title">Invalid Entry!</h4>
+        <div class="row" data-aos="fade-in">
+
+          <div class="col-lg-5 d-flex align-items-stretch">
+            <div class="info">
+              <div class="address">
+                <i class="icofont-google-map"></i>
+                <h4>Location:</h4>
+                <p>Perla, Kasaragod, Kerala, India 671552</p>
+              </div>
+
+              <div class="email">
+                <i class="icofont-envelope"></i>
+                <h4>Email:</h4>
+                <p>sagarslyn@gmail.com</p>
+              </div>
+
+              <div class="phone">
+                <i class="icofont-phone"></i>
+                <h4>Call:</h4>
+                <p>+91 8129482811</p>
+              </div>
+
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d517.7686820916483!2d75.10010310618044!3d12.629800782813977!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTLCsDM3JzQ2LjgiTiA3NcKwMDYnMDAuNSJF!5e0!3m2!1sen!2sin!4v1608289622454!5m2!1sen!2sin" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
+            </div>
+
+          </div>
+
+          <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+            <form method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="form-group col-md-6">
+                  <label for="name">Your Name</label>
+                  <input type="text" name="name" class="form-control" id="name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                  <div class="validate"></div>
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="name">Your Email</label>
+                  <input type="email" class="form-control" name="email" id="email" data-rule="email" data-msg="Please enter a valid email" />
+                  <div class="validate"></div>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="name">Subject</label>
+                <input type="text" class="form-control" name="subject" id="subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                <div class="validate"></div>
+              </div>
+              <div class="form-group">
+                <label for="name">Message</label>
+                <textarea class="form-control" name="message" rows="10" id="message" data-rule="required" data-msg="Please write something for us"></textarea>
+                <div class="validate"></div>
+              </div>
+              <div class="mb-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+          </div>
         </div>
-        <div class="modal-body">
-          <p>Please enter valid data.</p>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Ok</button>
-        </div>
+
       </div>
+    </section><!-- End Contact Section -->
 
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        <strong><span>Contact Me</span></strong>
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/ -->
+        Sagar Salyan | sagarslyn@gmail.com
+      </div>
     </div>
-  </div>
+  </footer>
+  <!-- End  Footer -->
 
-	<!--Modal-->
+  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
 
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="assets/vendor/counterup/counterup.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
 
-
-	<!-- //contact -->
-	<div class="agileits_w3layouts-footer">
-		<p>© 2020 Designer. All rights reserved | Sagar Salyan</p>
-	</div>
-	<!-- start-smooth-scrolling -->
-	<script type="text/javascript" src="js/move-top.js"></script>
-	<script type="text/javascript" src="js/easing.js"></script>
-	<script type="text/javascript">
-		jQuery(document).ready(function ($) {
-			$(".scroll").click(function (event) {
-				event.preventDefault();
-
-				$('html,body').animate({
-					scrollTop: $(this.hash).offset().top
-				}, 1000);
-			});
-		});
-	</script>
-	<!-- //end-smooth-scrolling -->
-	<!-- smooth-scrolling-of-move-up -->
-	<script type="text/javascript">
-		$(document).ready(function () {
-			/*
-			var defaults = {
-				containerID: 'toTop', // fading element id
-				containerHoverID: 'toTopHover', // fading element hover id
-				scrollSpeed: 1200,
-				easingType: 'linear'
-			};
-			*/
-
-			$().UItoTop({
-				easingType: 'easeOutQuart'
-			});
-
-		});
-	</script>
-<script type="text/javascript" src="js/SmoothScroll.min.js"></script>
-	<!-- Bootstrap core JavaScript
-    ================================================== -->
-	<!-- Placed at the end of the document so the pages load faster -->
-	<script src="js/bootstrap.js"></script>
-
-	<!--Firebase -->
-
-	<!-- The core Firebase JS SDK is always required and must be listed first -->
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
 	<script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-app.js"></script>
 
-	<!-- TODO: Add SDKs for Firebase products that you want to use
+  <!-- TODO: Add SDKs for Firebase products that you want to use
 	     https://firebase.google.com/docs/web/setup#available-libraries -->
 	<script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-analytics.js"></script>
 	<script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-database.js"></script>
 
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
 
-	<script src="js/firebase.js"></script>
-
-
-
-	<!--Firebase-->
 </body>
+
 </html>
